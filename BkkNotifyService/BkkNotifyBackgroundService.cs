@@ -85,7 +85,7 @@ public class BkkNotifyBackgroundService : BackgroundService
     
     private Task UnknownUpdateHandlerAsync(TL.Update update)
     {
-        _logger.LogInformation("Unknown type message");
+        //_logger.LogInformation("Unknown type message");
         return Task.CompletedTask;
     }
 
